@@ -1,0 +1,13 @@
+{
+  "name": "type-safe-api-client",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.0"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "demo": "npx ts-node src/demo.ts"
+  }
+}
